@@ -2,14 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<title>Contact</title>
 </head>
 <body>
 <div class="container">
-	<h3>contact form</h3>
-	<div>
-  <label for="first_name">First Name</label>
-		<input type="text" id="first_name" placeholder="Enter Your First Name">
+	<div class="card mt-5">
+		<div class="card-header h3">Contact Form</div>
+		<div class="card-text">
+			<div>
+				<label for="first_name">First Name :</label>
+				<input type="text" id="first_name" placeholder="Enter Your First Name">
+			</div>
+			<div>
+				<label for="last_name">Last Name :</label>
+				<input type="text" id="last_name" placeholder="Enter Your Last Name">
+			</div>
+			<div>
+				<label for="email">Email :</label>
+				<input type="email" id="email" placeholder="Enter Your Email Address">
+			</div>
+			<div>
+				<label for="button">Button :</label>
+				<input type="submit" id="button" placeholder="submit form" onclick="alert('form submitted successfully')">
+			</div>
+		</div>
 	</div>
 </div>
 </body>

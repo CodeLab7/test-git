@@ -1,2 +1,2 @@
 # Git Test
-This project is for learning Git and Github
+This project is for learning Git and GitHub

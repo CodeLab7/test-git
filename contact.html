@@ -3,30 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<title>Contact</title>
+	<title>Contact Page</title>
 </head>
 <body>
 <div class="container">
+	<div class="form">
 	<div class="card mt-5">
 		<div class="card-header h3">Contact Form</div>
 		<div class="card-text">
-			<div>
+			<div class="form-group">
 				<label for="first_name">First Name :</label>
-				<input type="text" id="first_name" placeholder="Enter Your First Name">
+				<input type="text" id="first_name" class="form-control" placeholder="Enter Your First Name">
 			</div>
-			<div>
+			<div class="form-group">
 				<label for="last_name">Last Name :</label>
-				<input type="text" id="last_name" placeholder="Enter Your Last Name">
+				<input type="text" id="last_name" class="form-control" placeholder="Enter Your Last Name">
 			</div>
-			<div>
+			<div class="form-group">
 				<label for="email">Email :</label>
-				<input type="email" id="email" placeholder="Enter Your Email Address">
+				<input type="email" id="email" class="form-control" placeholder="Enter Your Email Address">
 			</div>
-			<div>
-				<label for="button">Button :</label>
-				<input type="submit" id="button" placeholder="submit form" onclick="alert('form submitted successfully')">
-			</div>
+			<input type="submit" id="button"  class="btn btn-success" placeholder="submit form" onclick="alert('form submitted successfully')">
 		</div>
+	</div>
 	</div>
 </div>
 </body>

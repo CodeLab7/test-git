@@ -1,2 +1,2 @@
-# Git Test
-This project is for learning Git and GitHub
+#Git Update
+- This message has been added before new branch
